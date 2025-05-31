@@ -1,0 +1,42 @@
+.hero {
+  height: 523px;
+}
+.left {
+  float: left;
+  width: 479px;
+}
+.home-logo {
+  border: 2px solid #000000;
+}
+
+.home-logo a img {
+  text-align: start;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  float: left;
+}
+.home-logo img {
+  text-align: start;
+  width: 30px;
+  height: 30px;
+  padding: 20px;
+  float: left;
+}
+.right {
+  float: right;
+}
+.right img {
+  margin-top: -57px;
+  width: 650px;
+  margin-right: -70px;
+}
+.left h3 {
+  margin-top: 187px;
+  text-align: start;
+  margin-left: 13px;
+}
+.left h3 span {
+  font-size: 20px;
+  color: rgb(59, 57, 57);
+}

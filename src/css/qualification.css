@@ -1,0 +1,50 @@
+#education p {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+
+.qualification-rounder {
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  background-color: black;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.qualification-line {
+  display: inline-block;
+  width: 2px;
+  height: 100px;
+  background-color: black;
+  margin: auto;
+}
+
+.data {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* margin-bottom: 30px; */
+  padding: 20px;
+}
+
+.education-data {
+  text-align: start;
+}
+
+.education-1 {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.edu-1{
+  margin-left: 452px;
+  margin-top: -41px;
+}
+
+.edu-2{
+  margin-top: -42px;
+}

@@ -1,0 +1,33 @@
+.para {
+  margin-top: -20px;
+  margin-bottom: 40px;
+}
+#about p {
+  text-align: center;
+}
+.about-right {
+  margin-left: 107px;
+}
+
+.about-card span {
+  padding: 6px;
+}
+.about-card i {
+  padding: 5px;
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 26px;
+}
+.about-card {
+  height: fit-content;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 30px 5px;
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  padding: 11px;
+}
