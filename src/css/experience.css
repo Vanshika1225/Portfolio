@@ -1,10 +1,11 @@
 .experience-sectin {
-    background-color: black;
-    color: white;
-    padding: 20px;
-    width: 1304px;
-    margin-left: -128px;
-  }
+  background-color: black;
+  color: white;
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
   .experience-sectin h3 {
     margin-bottom: 40px;
   }
