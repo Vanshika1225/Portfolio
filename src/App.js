@@ -5,6 +5,7 @@ import Skills from "./component/Skills";
 import Experiene from "./component/Experiene";
 import Projects from "./component/Projects";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Contact from "./component/Contact";
 function App() {
   return (
     <div className="App">
@@ -15,6 +16,7 @@ function App() {
           <Route path="/Skills" element={<Skills />}></Route>
           <Route path="/Experiene" element={<Experiene />}></Route>
           <Route path="/Projects" element={<Projects />}></Route>
+          <Route path="/Contact" element={<Contact />}></Route>
         </Routes>
       </BrowserRouter>
     </div>

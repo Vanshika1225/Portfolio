@@ -79,6 +79,14 @@ const Navbar = () => {
               >
                 Experience
               </Link>
+              <Link
+                className="Link"
+                to="contact"
+                smooth={true}
+                duration={500}
+              >
+                Contact
+              </Link>
             </li>
           </ul>
         </div>
