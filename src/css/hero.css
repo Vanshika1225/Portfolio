@@ -1,42 +1,87 @@
 .hero {
-  height: 523px;
-}
-.left {
-  float: left;
-  width: 479px;
-}
-.home-logo {
-  border: 2px solid #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 1rem;
+  box-sizing: border-box;
 }
 
-.home-logo a img {
-  text-align: start;
-  width: 30px;
-  height: 30px;
-  padding: 20px;
-  float: left;
+.left {
+  max-width: 479px;
+  margin-bottom: 1rem;
 }
-.home-logo img {
-  text-align: start;
-  width: 30px;
-  height: 30px;
-  padding: 20px;
-  float: left;
-}
-.right {
-  float: right;
-}
-.right img {
-  margin-top: -57px;
-  width: 650px;
-  margin-right: -70px;
-}
+
 .left h3 {
-  margin-top: 187px;
+  margin-top: 2rem;
   text-align: start;
   margin-left: 13px;
+  font-size: 1.2rem;
+  line-height: 1.6;
 }
+
 .left h3 span {
-  font-size: 20px;
+  font-size: 1rem;
   color: rgb(59, 57, 57);
+}
+
+.home-logo {
+  display: flex;
+  text-align: start;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  padding: 0.5rem;
+}
+
+.home-logo a img,
+.home-logo img {
+  height: 30px;
+  padding: 10px;
+  object-fit: contain;
+}
+
+.right {
+  display: flex;
+  justify-content: center;
+}
+
+.right img {
+  margin-top: -57px;
+  width: 553px;
+  height: auto;
+  margin-top: 1rem;
+  margin-right: 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .left h3 {
+    margin-top: 10rem;
+  }
+}
+
+@media screen and (max-width: 11440px) {
+  .left h3 {
+    margin-top: 15rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero {
+    align-items: center;
+  }
+
+  .left {
+    width: 100%;
+    max-width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .left h3 {
+    margin-top: 5rem;
+    margin-left: 0;
+  }
+
+  .left h3 span {
+    font-size: 0.95rem;
+  }
 }
