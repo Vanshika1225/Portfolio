@@ -3,7 +3,6 @@
   margin: 0 auto;
   margin-top: 10vh;
 }
-
 .navigation-bar {
   display: flex;
   justify-content: space-around;
@@ -11,7 +10,8 @@
   top: 0;
   left: 0;
   width: 100%;
-  background-color: white;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   z-index: 1000;
 }
 .logo {

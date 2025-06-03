@@ -6,6 +6,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Education from "./EducationAndExperience";
 import Contact from "./Contact";
+import Footer from "./Footer";
 const Home = () => {
   return (
     <div>

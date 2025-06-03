@@ -15,7 +15,7 @@ const skillsData = [
 
 const Skills = () => {
   return (
-    <div className='skills'>
+    <div className='skills' id='skills'>
       <div style={{ alignItems: 'center' }}>
         <h1>My Skills</h1>
         <p className='class-para'>Things I know</p>

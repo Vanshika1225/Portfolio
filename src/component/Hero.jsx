@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/sidePic.jpg";
+import image from "../images/sidePic.png";
 import instaImage from "../images/insta.webp";
 import linkedIn from "../images/linkedin.png";
 import githubimages from "../images/github.png";
@@ -50,7 +50,15 @@ const Hero = () => {
           </div>
         </div>
         <div className="right">
-          <img src={image} alt="sidepic" />
+          <img
+            src={image}
+            alt="sidepic"
+            style={{
+              backgroundColor: "transparent",
+              padding: 0,
+              borderRadius: 0,
+            }}
+          />
         </div>
       </div>
     </>
