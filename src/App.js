@@ -2,7 +2,7 @@ import "./App.css";
 import Home from "./component/Home";
 import About from "./component/About";
 import Skills from "./component/Skills";
-import Experiene from "./component/Experiene";
+import Experiene from "./component/EducationAndExperience";
 import Projects from "./component/Projects";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./component/Contact";
