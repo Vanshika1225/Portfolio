@@ -1,26 +1,19 @@
-body {
-  background-color: #f9f9f9;
-  margin: 0;
-  padding: 0;
-  /* REMOVE: width: 80vw; margin: 0 auto; */
-}
-
-.App {
-  width: 80vw;  /* Apply here if needed */
-  margin: 0 auto;
-  text-align: center;
-}
-
-.footer{
-  width: 100%;
-  background-color: white;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
+.App {
+  width: fit-content;
+  text-align: center;
+}
+
+body {
+  background-color: #f9f9f9;
+  width: 80vw;
+  margin: 0 auto;
+  margin-top: 0;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

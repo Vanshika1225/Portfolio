@@ -1,9 +1,8 @@
 .footer {
-  width: 100vw;
-  background-color: white;
+  /* width: 100vw; */
+  /* position: fixed; */
   margin-top: 60px;
   padding-top: 30px;
-  border-top: 1px solid #ccc;
   display: flex;
   justify-content: center;
   flex-direction: column;

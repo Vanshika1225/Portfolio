@@ -7,6 +7,7 @@ import Projects from "./component/Projects";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Contact from "./component/Contact";
 import Footer from "./component/Footer";
+import ScrollToTopButton from "./component/ScrroolToTopI";
 function App() {
   return (
     <>
@@ -23,6 +24,9 @@ function App() {
         </BrowserRouter>
       </div>
       <Footer />
+      <div id="section-2">
+        <ScrollToTopButton />
+      </div>
     </>
   );
 }
