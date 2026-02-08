@@ -36,9 +36,9 @@ const Hero = () => {
             <a href="https://github.com/Vanshika1225">
               <img src={githubimages} alt="github" />
             </a>
-            <a>
-              <img src={mail} alt="mail" onClick={sendMail} />
-            </a>
+            <button type="button" onClick={sendMail} className="icon-button">
+              <img src={mail} alt="Send email" />
+            </button>
           </div>
         </div>
         <div className="right">
