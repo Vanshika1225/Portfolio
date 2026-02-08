@@ -2,37 +2,14 @@ import React from "react";
 import { Link as RouterLink } from "react-router-dom";
 import { Link } from "react-scroll";
 import logo from "../images/Cover.jpg";
-import jsPDF from "jspdf";
 import "../App.css";
-import resumeImage from "../images/Resume1.png";
 import "../css/navbar.css";
+import { saveAs } from "file-saver";
+import resumePDF from "../resume/Vanshika_Resume.pdf";
+
 const Navbar = () => {
   const handleDownloadPDF = () => {
-    const pdf = new jsPDF("p", "mm", "a4");
-    const img = new Image();
-    img.src = resumeImage;
-    img.onload = () => {
-      const pageWidth = pdf.internal.pageSize.getWidth();
-      const pageHeight = pdf.internal.pageSize.getHeight();
-
-      const imgWidth = img.width;
-      const imgHeight = img.height;
-
-      const aspectRatio = imgWidth / imgHeight;
-      let renderWidth = pageWidth;
-      let renderHeight = renderWidth / aspectRatio;
-
-      if (renderHeight > pageHeight) {
-        renderHeight = pageHeight;
-        renderWidth = renderHeight * aspectRatio;
-      }
-
-      const x = (pageWidth - renderWidth) / 2;
-      const y = (pageHeight - renderHeight) / 2;
-
-      pdf.addImage(img, "PNG", x, y, renderWidth, renderHeight);
-      pdf.save("downloaded-file.pdf");
-    };
+    saveAs(resumePDF, "Vanshika_Resume.pdf");
   };
 
   const handleHomeClick = () => {
@@ -71,12 +48,7 @@ const Navbar = () => {
               >
                 Education
               </Link>
-              <Link
-                className="Link"
-                to="contact"
-                smooth={true}
-                duration={500}
-              >
+              <Link className="Link" to="contact" smooth={true} duration={500}>
                 Contact
               </Link>
             </li>

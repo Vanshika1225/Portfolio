@@ -1,8 +1,7 @@
 // src/components/Contact.js
-import React, { useRef } from "react";
+import { useRef } from "react";
 import emailjs from "emailjs-com";
 import "../css/contact.css";
-import { Link } from "react-router-dom";
 
 const Contact = () => {
   const form = useRef();
@@ -15,7 +14,7 @@ const Contact = () => {
         "service_e0d7meq", // from EmailJS
         "template_374u8o4", // from EmailJS
         form.current,
-        "H1hSh_nuH1Vjy6cbc" // from EmailJS
+        "H1hSh_nuH1Vjy6cbc", // from EmailJS
       )
       .then(
         (result) => {
@@ -24,7 +23,7 @@ const Contact = () => {
         },
         (error) => {
           alert("Failed to send message. Please try again.");
-        }
+        },
       );
   };
 
