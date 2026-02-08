@@ -28,24 +28,16 @@ const Hero = () => {
 
           <div className="home-logo">
             <a href="https://leetcode.com/user6789s/">
-              <img
-                src={instaImage}
-                style={{ width: "30px" }}
-                alt="insta image"
-              />
+              <img src={instaImage} style={{ width: "30px" }} alt="instagram" />
             </a>
             <a href="https://www.linkedin.com/in/er-vanshika-kakkar-04769721b?utm_source=share &utm_compaign=share_via&utm_content=profile&utm_medium=android_app">
-              <img
-                src={linkedIn}
-                style={{ height: "38px" }}
-                alt="linked image"
-              />
+              <img src={linkedIn} style={{ height: "38px" }} alt="linked" />
             </a>
             <a href="https://github.com/Vanshika1225">
-              <img src={githubimages} alt="github image" />
+              <img src={githubimages} alt="github" />
             </a>
             <a>
-              <img src={mail} alt="mail image" onClick={sendMail} />
+              <img src={mail} alt="mail" onClick={sendMail} />
             </a>
           </div>
         </div>
